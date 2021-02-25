@@ -8,7 +8,7 @@
   maximum-scale=5"
     />
 
-    <link rel="icon" href="devchallenges.png" />
+    <link rel="icon" href="./images/devchallenges.png" />
 
     <link
       rel="shortcut icon"
@@ -21,75 +21,46 @@
       rel="stylesheet"
     />
 
-    <title>Devchallenges</title>
+    <link rel="stylesheet" href="styles/styles.css">
 
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
-
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
+    <title>My Gallery</title>
   </head>
   <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
+     <div class="container">
 
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
-      </div>
+       <div class="profile-info">
+        <img src="./images/profilePhoto.png" alt="Rodney Cotton">
+        <h2>Rodney Cotton</h2>
+        <span>Helsinki, Finland</span>
 
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
-    </div>
+        <div class="sub-container">
+          <div class="posts">
+            <p>100</p>
+            <span>Posts</span>
+          </div>
+
+          <div class="followers">
+            <p>2,242</p>
+            <span>Followers</span>
+          </div>
+
+          <div class="following">
+            <p>1,432</p>
+            <span>Following</span>
+          </div>
+        </div>
+       </div>
+
+       <div class="photos">
+         <div class="div1"><img src="./images/photo1.png" alt=""></div>
+         <div class="div2"><img src="./images/photo2.png" alt=""></div>
+         <div class="div3"><img src="./images/photo3.png" alt=""></div>
+         <div class="div4"><img src="./images/photo4.png" alt=""></div>
+         <div class="div5"><img src="./images/photo5.png" alt=""></div>
+         <div class="div6"><img src="./images/photo6.png" alt=""></div>
+       </div>
+     </div>
+
+     <footer>Created by <b>@LaraSabatini</b> - devChallenges.io</footer>
   </body>
 </html>
