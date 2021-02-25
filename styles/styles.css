@@ -166,4 +166,66 @@ footer {
   font-size: 14px;
   color: var(--footerGray);
 }
+
+/* Mobile 375*/
+@media screen and (max-width: 375px) {
+  .container {
+    width: 90vw;
+  }
+  .profile-info img {
+    width: 101.76px;
+  }
+  .profile-info h2 {
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+  .profile-info span {
+    font-size: 10px;
+  }
+  .profile-info .sub-container {
+    width: 80%;
+  }
+  .profile-info .sub-container div {
+    width: 78px;
+    padding: 5px 0;
+  }
+  .profile-info .sub-container div p, .profile-info .sub-container div span {
+    font-size: 12px;
+    margin-bottom: 0px;
+  }
+  .photos {
+    -ms-grid-columns: (109.52px)[3];
+        grid-template-columns: repeat(3, 109.52px);
+    -ms-grid-rows: (109.52px)[2] 1fr;
+        grid-template-rows: repeat(2, 109.52px) 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    margin-left: -5px;
+  }
+  .div1 img, .div5 img, .div6 img {
+    width: 109.32px;
+    height: 109.52px;
+  }
+  .div2 img {
+    width: 229.98px;
+    height: 109.52px;
+  }
+  .div3 img {
+    width: 229.25px;
+    height: 109.52px;
+  }
+  .div4 img {
+    width: 108.59px;
+    height: 230.76px;
+  }
+  footer {
+    text-align: center;
+    margin-top: 70px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    color: var(--footerGray);
+  }
+}
 /*# sourceMappingURL=styles.css.map */
